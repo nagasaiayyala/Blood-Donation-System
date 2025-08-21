@@ -21,7 +21,8 @@ const server = http.createServer(app);
 // ✅ Allowed origins (local + deployed frontend)
 const allowedOrigins = [
   'http://localhost:5173', // local frontend
-  'https://blood-donation-management-one.vercel.app' // deployed frontend
+  'https://blood-donation-system-theta.vercel.app' ,
+  'https://blood-donation-system-naga-sais-projects-bee1b38a.vercel.app'// deployed frontend
 ];
 
 app.use(cors({
